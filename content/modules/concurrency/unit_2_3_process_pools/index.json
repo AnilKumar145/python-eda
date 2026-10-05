@@ -1,0 +1,16 @@
+{
+    "id": "unit_2_3_process_pools",
+    "title": "Process Pools",
+    "description": "Master parallel computing with concurrent.futures.ProcessPoolExecutor, submitting CPU-bound workloads across multi-core systems, handling futures, and tuning pool sizes.",
+    "type": "unit",
+    "order": 3,
+    "knowledge_file": "knowledge/lesson_01.md",
+    "exercises_file": "exercises/unit_2_3_process_pools_exercises.py",
+    "app_labs": [
+        {
+            "lab": 1,
+            "difficulty": "easy",
+            "path": "app_labs/lab_1_easy"
+        }
+    ]
+}

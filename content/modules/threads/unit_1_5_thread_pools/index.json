@@ -1,0 +1,16 @@
+{
+    "id": "unit_1_5_thread_pools",
+    "title": "Thread Pools",
+    "description": "Master high-level concurrent task execution using concurrent.futures.ThreadPoolExecutor, submit vs map, Future objects, result retrieval, and robust exception handling.",
+    "type": "unit",
+    "order": 5,
+    "knowledge_file": "knowledge/lesson_01.md",
+    "exercises_file": "exercises/unit_1_5_thread_pools_exercises.py",
+    "app_labs": [
+        {
+            "lab": 1,
+            "difficulty": "easy",
+            "path": "app_labs/lab_1_easy"
+        }
+    ]
+}

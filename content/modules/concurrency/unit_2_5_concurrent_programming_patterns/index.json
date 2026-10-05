@@ -1,0 +1,31 @@
+{
+  "id": "unit_2_5_concurrent_programming_patterns",
+  "title": "Concurrent Programming Patterns",
+  "order": 5,
+  "description": "Master robust architectural patterns for concurrency including Producer-Consumer, Worker Pools, Fan-out/Fan-in, and immutability strategies for dead-lock prevention.",
+  "duration_hours": 6,
+  "difficulty": "advanced",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Architectural Patterns & Concurrency Safety",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_2_5_concurrent_programming_patterns_exercises.py",
+    "solution_file": "exercises/solutions/unit_2_5_concurrent_programming_patterns_solutions.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Fan-Out / Fan-In Diagnostic Telemetry Aggregator",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "unit_1_4_thread_communication",
+    "title": "Thread Communication",
+    "description": "Master inter-thread communication patterns using queue.Queue, LifoQueue, and PriorityQueue, implement the Producer-Consumer architecture, and eliminate shared mutable state.",
+    "type": "unit",
+    "order": 4,
+    "knowledge_file": "knowledge/lesson_01.md",
+    "exercises_file": "exercises/unit_1_4_thread_communication_exercises.py",
+    "app_labs": [
+        {
+            "lab": 1,
+            "difficulty": "easy",
+            "path": "app_labs/lab_1_easy"
+        }
+    ]
+}
