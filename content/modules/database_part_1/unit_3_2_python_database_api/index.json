@@ -1,0 +1,15 @@
+{
+  "unit_id": "unit_3_2_python_database_api",
+  "title": "Python Database API (DB-API 2.0)",
+  "module": "database_part_1",
+  "order": 2,
+  "estimated_hours": 3,
+  "topics": [
+    "PEP 249 DB-API 2.0 Standard Specification",
+    "Database Drivers and Connection Lifecycle",
+    "Cursor Mechanics: execute, executemany, and result iterators",
+    "Result Fetching Strategies: fetchone, fetchall, and fetchmany chunking",
+    "Transactions: commit, rollback, and auto-rollback context managers",
+    "Connection Pooling Architecture and Thread Safety"
+  ]
+}

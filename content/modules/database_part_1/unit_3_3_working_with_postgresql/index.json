@@ -1,0 +1,15 @@
+{
+  "unit_id": "unit_3_3_working_with_postgresql",
+  "title": "Working with PostgreSQL and Relational Stores",
+  "module": "database_part_1",
+  "order": 3,
+  "estimated_hours": 4,
+  "topics": [
+    "PostgreSQL Architecture and Client-Server Connection Lifecycle",
+    "psycopg2 and psycopg3 Driver Paradigms",
+    "PostgreSQL-Specific Data Types: JSONB, UUID, Arrays, and Timestamps",
+    "Null-Safe Result Processing and Coalescing",
+    "Context Managers for Connection and Transaction Management",
+    "Building Resilient Engine-Agnostic Database Adapters"
+  ]
+}

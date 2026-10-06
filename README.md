@@ -50,6 +50,18 @@ python content/modules/concurrency/unit_2_5_concurrent_programming_patterns/exer
 
 # Unit 2.6: Choosing the Right Concurrency Model
 python content/modules/concurrency/unit_2_6_choosing_the_right_concurrency_model/exercises/unit_2_6_choosing_the_right_concurrency_model_exercises.py
+
+# Unit 3.1: Database Fundamentals and Relational Architecture
+python content/modules/database_part_1/unit_3_1_database_fundamentals/exercises/unit_3_1_database_fundamentals_exercises.py
+
+# Unit 3.2: Python Database API (DB-API 2.0)
+python content/modules/database_part_1/unit_3_2_python_database_api/exercises/unit_3_2_python_database_api_exercises.py
+
+# Unit 3.3: Working with PostgreSQL and Relational Stores
+python content/modules/database_part_1/unit_3_3_working_with_postgresql/exercises/unit_3_3_working_with_postgresql_exercises.py
+
+# Unit 3.4: Database Security, Transactions, and Best Practices
+python content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/unit_3_4_security_and_best_practices_exercises.py
 ```
 
 ### Run an Exercise Solution (Reference):
@@ -57,6 +69,10 @@ python content/modules/concurrency/unit_2_6_choosing_the_right_concurrency_model
 ```bash
 python content/modules/threads/unit_1_1_threading_fundamentals/exercises/solutions/unit_1_1_threading_fundamentals_exercises.py
 python content/modules/concurrency/unit_2_4_asynchronous_programming/exercises/solutions/unit_2_4_asynchronous_programming_exercises.py
+python content/modules/database_part_1/unit_3_1_database_fundamentals/exercises/solutions/unit_3_1_database_fundamentals_exercises.py
+python content/modules/database_part_1/unit_3_2_python_database_api/exercises/solutions/unit_3_2_python_database_api_exercises.py
+python content/modules/database_part_1/unit_3_3_working_with_postgresql/exercises/solutions/unit_3_3_working_with_postgresql_exercises.py
+python content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/solutions/unit_3_4_security_and_best_practices_exercises.py
 ```
 
 ---
@@ -99,6 +115,18 @@ pytest content/modules/concurrency/unit_2_5_concurrent_programming_patterns/app_
 
 # Unit 2.6 Lab: Multi-Modal Genomic Analysis Gateway
 pytest content/modules/concurrency/unit_2_6_choosing_the_right_concurrency_model/app_labs/lab_1_easy/tests.py -v
+
+# Unit 3.1 Lab: Hospital Patient Registry
+pytest content/modules/database_part_1/unit_3_1_database_fundamentals/app_labs/lab_1_easy/tests.py -v
+
+# Unit 3.2 Lab: Clinic Telemetry Pipeline & Pooled Engine
+pytest content/modules/database_part_1/unit_3_2_python_database_api/app_labs/lab_1_easy/tests.py -v
+
+# Unit 3.3 Lab: Radiology Study Store & Structured Metrics
+pytest content/modules/database_part_1/unit_3_3_working_with_postgresql/app_labs/lab_1_easy/tests.py -v
+
+# Unit 3.4 Lab: Prescription Audit Ledger & Transaction Guard
+pytest content/modules/database_part_1/unit_3_4_security_and_best_practices/app_labs/lab_1_easy/tests.py -v
 ```
 
 ---
