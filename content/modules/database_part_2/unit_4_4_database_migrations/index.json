@@ -1,0 +1,31 @@
+{
+  "id": "unit_4_4_database_migrations",
+  "title": "Database Migrations",
+  "order": 4,
+  "description": "Master database schema evolution with Alembic: migration architecture, revision scripts, upgrade and downgrade operations, autogenerate mechanics, version tracking tables, and zero-downtime deployment patterns.",
+  "duration_hours": 8,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Alembic Architecture, Schema Evolution, and Version Management",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 105
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_4_4_database_migrations_exercises.py",
+    "solution_file": "exercises/solutions/unit_4_4_database_migrations_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Pharmacy Drug Formulary Schema Evolution Engine",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

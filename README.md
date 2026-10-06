@@ -62,6 +62,21 @@ python content/modules/database_part_1/unit_3_3_working_with_postgresql/exercise
 
 # Unit 3.4: Database Security, Transactions, and Best Practices
 python content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/unit_3_4_security_and_best_practices_exercises.py
+
+# Unit 4.1: ORM Fundamentals
+python content/modules/database_part_2/unit_4_1_orm_fundamentals/exercises/unit_4_1_orm_fundamentals_exercises.py
+
+# Unit 4.2: SQLAlchemy Sessions
+python content/modules/database_part_2/unit_4_2_sqlalchemy_sessions/exercises/unit_4_2_sqlalchemy_sessions_exercises.py
+
+# Unit 4.3: Advanced ORM Features
+python content/modules/database_part_2/unit_4_3_advanced_orm_features/exercises/unit_4_3_advanced_orm_features_exercises.py
+
+# Unit 4.4: Database Migrations
+python content/modules/database_part_2/unit_4_4_database_migrations/exercises/unit_4_4_database_migrations_exercises.py
+
+# Unit 4.5: Database Logging and Diagnostics
+python content/modules/database_part_2/unit_4_5_database_logging/exercises/unit_4_5_database_logging_exercises.py
 ```
 
 ### Run an Exercise Solution (Reference):
@@ -73,6 +88,11 @@ python content/modules/database_part_1/unit_3_1_database_fundamentals/exercises/
 python content/modules/database_part_1/unit_3_2_python_database_api/exercises/solutions/unit_3_2_python_database_api_exercises.py
 python content/modules/database_part_1/unit_3_3_working_with_postgresql/exercises/solutions/unit_3_3_working_with_postgresql_exercises.py
 python content/modules/database_part_1/unit_3_4_security_and_best_practices/exercises/solutions/unit_3_4_security_and_best_practices_exercises.py
+python content/modules/database_part_2/unit_4_1_orm_fundamentals/exercises/solutions/unit_4_1_orm_fundamentals_exercises.py
+python content/modules/database_part_2/unit_4_2_sqlalchemy_sessions/exercises/solutions/unit_4_2_sqlalchemy_sessions_exercises.py
+python content/modules/database_part_2/unit_4_3_advanced_orm_features/exercises/solutions/unit_4_3_advanced_orm_features_exercises.py
+python content/modules/database_part_2/unit_4_4_database_migrations/exercises/solutions/unit_4_4_database_migrations_exercises.py
+python content/modules/database_part_2/unit_4_5_database_logging/exercises/solutions/unit_4_5_database_logging_exercises.py
 ```
 
 ---
@@ -127,6 +147,21 @@ pytest content/modules/database_part_1/unit_3_3_working_with_postgresql/app_labs
 
 # Unit 3.4 Lab: Prescription Audit Ledger & Transaction Guard
 pytest content/modules/database_part_1/unit_3_4_security_and_best_practices/app_labs/lab_1_easy/tests.py -v
+
+# Unit 4.1 Lab: Inpatient Bed Allocation & Ward Registry
+pytest content/modules/database_part_2/unit_4_1_orm_fundamentals/app_labs/lab_1_easy/tests.py -v
+
+# Unit 4.2 Lab: Surgical Schedule & Operating Theatre Dispatcher
+pytest content/modules/database_part_2/unit_4_2_sqlalchemy_sessions/app_labs/lab_1_easy/tests.py -v
+
+# Unit 4.3 Lab: Patient Allergy Cross-Reference & Eager Loading Hub
+pytest content/modules/database_part_2/unit_4_3_advanced_orm_features/app_labs/lab_1_easy/tests.py -v
+
+# Unit 4.4 Lab: Pharmacy Drug Formulary Schema Evolution Engine
+pytest content/modules/database_part_2/unit_4_4_database_migrations/app_labs/lab_1_easy/tests.py -v
+
+# Unit 4.5 Lab: ICU Diagnostic Query Profiler & Slow Statement Watchdog
+pytest content/modules/database_part_2/unit_4_5_database_logging/app_labs/lab_1_easy/tests.py -v
 ```
 
 ---

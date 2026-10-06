@@ -1,0 +1,31 @@
+{
+  "id": "unit_4_5_database_logging",
+  "title": "Database Logging and Diagnostics",
+  "order": 5,
+  "description": "Master SQLAlchemy query logging, event listeners, query execution profiling, slow query alerting, connection pool telemetry, and diagnostic troubleshooting in production.",
+  "duration_hours": 6,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "SQLAlchemy Logging Architecture, Event Listeners, and Profiling",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_4_5_database_logging_exercises.py",
+    "solution_file": "exercises/solutions/unit_4_5_database_logging_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "ICU Diagnostic Query Profiler & Slow Statement Watchdog",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

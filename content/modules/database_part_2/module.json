@@ -1,0 +1,13 @@
+{
+  "id": "database_part_2",
+  "title": "Database Programming — Part 2",
+  "order": 4,
+  "description": "Enterprise Object-Relational Mapping (ORM) and schema engineering in Python: SQLAlchemy 2.0 Declarative Models, Session Lifecycle, Advanced Relationships & Eager Loading, Alembic Database Migrations, and Production Query Logging.",
+  "units": [
+    "unit_4_1_orm_fundamentals",
+    "unit_4_2_sqlalchemy_sessions",
+    "unit_4_3_advanced_orm_features",
+    "unit_4_4_database_migrations",
+    "unit_4_5_database_logging"
+  ]
+}

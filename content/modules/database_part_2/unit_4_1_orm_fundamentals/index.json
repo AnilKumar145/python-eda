@@ -1,0 +1,31 @@
+{
+  "id": "unit_4_1_orm_fundamentals",
+  "title": "ORM Fundamentals",
+  "order": 1,
+  "description": "Understand Object-Relational Mapping (ORM) principles, SQLAlchemy Core vs ORM, SQLAlchemy 2.0 DeclarativeBase, Mapped type annotations, column constraints, and relationship modeling.",
+  "duration_hours": 6,
+  "difficulty": "beginner",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "SQLAlchemy 2.0 Declarative Modeling and Relational Mapping",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 90
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_4_1_orm_fundamentals_exercises.py",
+    "solution_file": "exercises/solutions/unit_4_1_orm_fundamentals_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Inpatient Bed Allocation & Ward Registry",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}
