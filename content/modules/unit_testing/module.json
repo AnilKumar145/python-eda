@@ -1,0 +1,15 @@
+{
+  "id": "unit_testing",
+  "title": "Unit Testing & Quality Assurance",
+  "order": 5,
+  "description": "Enterprise software testing, test-driven development (TDD), pytest test harness, fixtures, mock isolation, edge case verification, database integration testing, and code coverage metrics.",
+  "units": [
+    "unit_5_1_testing_fundamentals",
+    "unit_5_2_pytest_fundamentals",
+    "unit_5_3_fixtures_and_test_data",
+    "unit_5_4_mocking_and_isolation",
+    "unit_5_5_exceptions_and_edge_cases",
+    "unit_5_6_database_testing",
+    "unit_5_7_test_coverage_and_best_practices"
+  ]
+}

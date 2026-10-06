@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_2_pytest_fundamentals",
+  "title": "pytest Fundamentals",
+  "order": 2,
+  "description": "Master pytest core execution mechanics: test discovery rules, plain Python assert statements, detailed assertion introspection, command-line flags (-v, -k, -m, -x), targeted test execution, and pytest configuration.",
+  "duration_hours": 4,
+  "difficulty": "beginner",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "pytest Architecture, Assertions, and CLI Discovery",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 75
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_5_2_pytest_fundamentals_exercises.py",
+    "solution_file": "exercises/solutions/unit_5_2_pytest_fundamentals_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Pediatric Dosage Calculator Test Harness",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

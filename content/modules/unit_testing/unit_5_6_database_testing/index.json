@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_6_database_testing",
+  "title": "Database Testing",
+  "order": 6,
+  "description": "Master automated database testing with pytest and SQLAlchemy 2.0: in-memory SQLite fixtures, schema creation and drop lifecycles, transaction rollbacks for zero-side-effect test isolation, testing repository/DAO patterns, and integration testing aggregates.",
+  "duration_hours": 5,
+  "difficulty": "advanced",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Database Fixtures, Transaction Rollbacks, and DAO Testing",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 80
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_5_6_database_testing_exercises.py",
+    "solution_file": "exercises/solutions/unit_5_6_database_testing_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Pharmacy Medication Inventory Repository Test Harness",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

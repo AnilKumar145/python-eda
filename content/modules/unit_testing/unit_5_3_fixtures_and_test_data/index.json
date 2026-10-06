@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_3_fixtures_and_test_data",
+  "title": "Fixtures and Test Data",
+  "order": 3,
+  "description": "Master pytest fixture dependency injection: @pytest.fixture decorators, fixture scopes (function, class, module, session), yield-based teardown lifecycle, reusable test datasets, parameterized testing with @pytest.mark.parametrize, and filesystem isolation with tmp_path.",
+  "duration_hours": 5,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "pytest Fixtures, Teardown Lifecycles, and Parameterization",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 80
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_5_3_fixtures_and_test_data_exercises.py",
+    "solution_file": "exercises/solutions/unit_5_3_fixtures_and_test_data_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Clinical Lab Test Reference Range & Reagent Harness",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

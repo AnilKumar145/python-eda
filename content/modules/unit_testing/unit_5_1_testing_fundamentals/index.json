@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_1_testing_fundamentals",
+  "title": "Testing Fundamentals",
+  "order": 1,
+  "description": "Establish the foundational principles of software testing: the test pyramid, unit testing vs integration testing, the Arrange-Act-Assert (AAA) pattern, Test-Driven Development (TDD) lifecycle, test isolation, and test naming conventions.",
+  "duration_hours": 4,
+  "difficulty": "beginner",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Software Testing Foundations and the AAA Pattern",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 75
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_5_1_testing_fundamentals_exercises.py",
+    "solution_file": "exercises/solutions/unit_5_1_testing_fundamentals_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Emergency Triage Patient Scoring Test Suite",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

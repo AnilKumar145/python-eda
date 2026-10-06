@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_4_mocking_and_isolation",
+  "title": "Mocking and Isolation",
+  "order": 4,
+  "description": "Master test isolation using Python's unittest.mock and pytest-mock: Mock and MagicMock objects, return_value and side_effect configurations, @patch decorators, context managers, spying with mock calls, and mocking external clinical APIs and SMS notification gateways.",
+  "duration_hours": 5,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Test Isolation with Mock, MagicMock, and Patch",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 80
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_5_4_mocking_and_isolation_exercises.py",
+    "solution_file": "exercises/solutions/unit_5_4_mocking_and_isolation_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Critical Alert SMS & Pager Notification Gateway",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

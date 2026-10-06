@@ -1,0 +1,31 @@
+{
+  "id": "unit_5_5_exceptions_and_edge_cases",
+  "title": "Exceptions and Edge Cases",
+  "order": 5,
+  "description": "Master robust error handling and boundary testing in Python: testing expected exceptions with pytest.raises, inspecting ExceptionInfo attributes and regex pattern matching, boundary value analysis (BVA), equivalence partitioning, negative test vectors, and preventing silent failures in clinical medical software.",
+  "duration_hours": 4,
+  "difficulty": "intermediate",
+  "learning_outcomes_file": "LEARNING_OUTCOMES.md",
+  "lessons": [
+    {
+      "id": "lesson_01",
+      "title": "Exception Validation, Boundary Values, and Negative Testing",
+      "file": "knowledge/lesson_01.md",
+      "order": 1,
+      "estimated_minutes": 75
+    }
+  ],
+  "exercises": {
+    "file": "exercises/unit_5_5_exceptions_and_edge_cases_exercises.py",
+    "solution_file": "exercises/solutions/unit_5_5_exceptions_and_edge_cases_exercises.py",
+    "readme": "exercises/README.md"
+  },
+  "app_labs": [
+    {
+      "id": "lab_1_easy",
+      "title": "Blood Bank Transfusion Compatibility Guard",
+      "difficulty": "easy",
+      "path": "app_labs/lab_1_easy"
+    }
+  ]
+}

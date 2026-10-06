@@ -77,6 +77,27 @@ python content/modules/database_part_2/unit_4_4_database_migrations/exercises/un
 
 # Unit 4.5: Database Logging and Diagnostics
 python content/modules/database_part_2/unit_4_5_database_logging/exercises/unit_4_5_database_logging_exercises.py
+
+# Unit 5.1: Testing Fundamentals
+pytest content/modules/unit_testing/unit_5_1_testing_fundamentals/exercises/unit_5_1_testing_fundamentals_exercises.py -v
+
+# Unit 5.2: pytest Fundamentals
+pytest content/modules/unit_testing/unit_5_2_pytest_fundamentals/exercises/unit_5_2_pytest_fundamentals_exercises.py -v
+
+# Unit 5.3: Fixtures and Test Data
+pytest content/modules/unit_testing/unit_5_3_fixtures_and_test_data/exercises/unit_5_3_fixtures_and_test_data_exercises.py -v
+
+# Unit 5.4: Mocking and Isolation
+pytest content/modules/unit_testing/unit_5_4_mocking_and_isolation/exercises/unit_5_4_mocking_and_isolation_exercises.py -v
+
+# Unit 5.5: Exceptions and Edge Cases
+pytest content/modules/unit_testing/unit_5_5_exceptions_and_edge_cases/exercises/unit_5_5_exceptions_and_edge_cases_exercises.py -v
+
+# Unit 5.6: Database Testing
+pytest content/modules/unit_testing/unit_5_6_database_testing/exercises/unit_5_6_database_testing_exercises.py -v
+
+# Unit 5.7: Test Coverage and Best Practices
+pytest content/modules/unit_testing/unit_5_7_test_coverage_and_best_practices/exercises/unit_5_7_test_coverage_and_best_practices_exercises.py -v
 ```
 
 ### Run an Exercise Solution (Reference):
@@ -93,6 +114,13 @@ python content/modules/database_part_2/unit_4_2_sqlalchemy_sessions/exercises/so
 python content/modules/database_part_2/unit_4_3_advanced_orm_features/exercises/solutions/unit_4_3_advanced_orm_features_exercises.py
 python content/modules/database_part_2/unit_4_4_database_migrations/exercises/solutions/unit_4_4_database_migrations_exercises.py
 python content/modules/database_part_2/unit_4_5_database_logging/exercises/solutions/unit_4_5_database_logging_exercises.py
+pytest content/modules/unit_testing/unit_5_1_testing_fundamentals/exercises/solutions/unit_5_1_testing_fundamentals_exercises.py -v
+pytest content/modules/unit_testing/unit_5_2_pytest_fundamentals/exercises/solutions/unit_5_2_pytest_fundamentals_exercises.py -v
+pytest content/modules/unit_testing/unit_5_3_fixtures_and_test_data/exercises/solutions/unit_5_3_fixtures_and_test_data_exercises.py -v
+pytest content/modules/unit_testing/unit_5_4_mocking_and_isolation/exercises/solutions/unit_5_4_mocking_and_isolation_exercises.py -v
+pytest content/modules/unit_testing/unit_5_5_exceptions_and_edge_cases/exercises/solutions/unit_5_5_exceptions_and_edge_cases_exercises.py -v
+pytest content/modules/unit_testing/unit_5_6_database_testing/exercises/solutions/unit_5_6_database_testing_exercises.py -v
+pytest content/modules/unit_testing/unit_5_7_test_coverage_and_best_practices/exercises/solutions/unit_5_7_test_coverage_and_best_practices_exercises.py -v
 ```
 
 ---
@@ -162,6 +190,27 @@ pytest content/modules/database_part_2/unit_4_4_database_migrations/app_labs/lab
 
 # Unit 4.5 Lab: ICU Diagnostic Query Profiler & Slow Statement Watchdog
 pytest content/modules/database_part_2/unit_4_5_database_logging/app_labs/lab_1_easy/tests.py -v
+
+# Unit 5.1 Lab: Emergency Triage Patient Scoring Test Suite
+pytest content/modules/unit_testing/unit_5_1_testing_fundamentals/app_labs/lab_1_easy/tests.py -v
+
+# Unit 5.2 Lab: Pediatric Dosage Calculator Test Harness
+pytest content/modules/unit_testing/unit_5_2_pytest_fundamentals/app_labs/lab_1_easy/tests.py -v
+
+# Unit 5.3 Lab: Clinical Chemistry Analyzer & Reagent Test Harness
+pytest content/modules/unit_testing/unit_5_3_fixtures_and_test_data/app_labs/lab_1_easy/tests.py -v
+
+# Unit 5.4 Lab: Emergency Alert SMS & Pager Notification Gateway
+pytest content/modules/unit_testing/unit_5_4_mocking_and_isolation/app_labs/lab_1_easy/tests.py -v
+
+# Unit 5.5 Lab: Blood Bank Transfusion Compatibility Guard
+pytest content/modules/unit_testing/unit_5_5_exceptions_and_edge_cases/app_labs/lab_1_easy/tests.py -v
+
+# Unit 5.6 Lab: Pharmacy Medication Inventory Repository Test Harness
+pytest content/modules/unit_testing/unit_5_6_database_testing/app_labs/lab_1_easy/tests.py -v
+
+# Unit 5.7 Lab: Clinical Audit Log Quality Gate and Coverage Harness
+pytest content/modules/unit_testing/unit_5_7_test_coverage_and_best_practices/app_labs/lab_1_easy/tests.py -v
 ```
 
 ---
